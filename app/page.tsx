@@ -5,6 +5,8 @@ import ShowHidePassword from './components/ShowHidePassword';
 import UseEffectExample from './components/UseEffectExample';
 import UseEffectDependencyExample from './components/UseEffectDependencyExample';
 import UseEffectCleanupExample from './components/UseEffectCleanupExample';
+import UseContextExample from './components/UseContextExample';
+import UseContextSimpleExample from './components/UseContextSimpleExample';
 
 
 const page = () => {
@@ -16,6 +18,8 @@ const page = () => {
       <UseEffectExample/>
       <UseEffectDependencyExample/>
       <UseEffectCleanupExample/>
+      <UseContextExample/>
+      <UseContextSimpleExample/>
     </div>
   )
 }
