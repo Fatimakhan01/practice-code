@@ -21,7 +21,8 @@ const UsestateExample = () => {
     }
   }
   return (
-    <div  className='justify-center  p-6'>
+    <div  className='justify-center p-6 '>
+      <h1 className='text-black font-bold text-2xl text-center p-6'>Use State Example's</h1>
     <h1 className=' text-emerald-900 font-extrabold bg-amber-100 text-center p-3'>Counter Example</h1>
     <p className='text-shadow-md text-emerald-700 font-bold p-2 m-1'>Count:{count}</p>
   

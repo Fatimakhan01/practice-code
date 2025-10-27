@@ -25,6 +25,7 @@ function Navbar() {
 const UseContextExample = () => {
   return (
     <Mycontext.Provider value="Fatima">
+      <h1 className='text-black font-bold text-2xl text-center'>useContext Example</h1>
       <div className='p-2'>
         <Navbar/>
         <Profile/>

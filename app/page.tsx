@@ -7,6 +7,7 @@ import UseEffectDependencyExample from './components/UseEffectDependencyExample'
 import UseEffectCleanupExample from './components/UseEffectCleanupExample';
 import UseContextExample from './components/UseContextExample';
 import UseContextSimpleExample from './components/UseContextSimpleExample';
+import UseReducerExample from './components/UseReducerExample';
 
 
 const page = () => {
@@ -20,6 +21,7 @@ const page = () => {
       <UseEffectCleanupExample/>
       <UseContextExample/>
       <UseContextSimpleExample/>
+      <UseReducerExample/>
     </div>
   )
 }
