@@ -8,6 +8,9 @@ import UseEffectCleanupExample from './components/UseEffectCleanupExample';
 import UseContextExample from './components/UseContextExample';
 import UseContextSimpleExample from './components/UseContextSimpleExample';
 import UseReducerExample from './components/UseReducerExample';
+import UseCallbackExample from './components/UsecallbackExample';
+import UseMemoExample from './components/UseMemoExample';
+import UseRefExample from './components/UseRefExample';
 
 
 const page = () => {
@@ -22,6 +25,9 @@ const page = () => {
       <UseContextExample/>
       <UseContextSimpleExample/>
       <UseReducerExample/>
+     <UseCallbackExample/>
+     <UseMemoExample/>
+     <UseRefExample/>
     </div>
   )
 }
